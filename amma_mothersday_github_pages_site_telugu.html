@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>అమ్మ ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Noto Sans Telugu', sans-serif;
+      background: #0f0f0f;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      position: relative;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      max-width: 900px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      color: #ffd6d6;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 25px;
+      color: #ffe5e5;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 2.2rem;
+      margin-bottom: 20px;
+      color: #f3f3f3;
+    }
+
+    .media-container {
+      margin-top: 35px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .media-container img,
+    .media-container video {
+      width: 320px;
+      max-width: 90vw;
+      border-radius: 20px;
+      border: 2px solid rgba(255,255,255,0.2);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .hero {
+      background: linear-gradient(to bottom right, #1c1c1c, #3b1f1f);
+    }
+
+    .section-two {
+      background: linear-gradient(to bottom right, #171717, #402424);
+    }
+
+    .section-three {
+      background: linear-gradient(to bottom right, #1b1b1b, #4a2b2b);
+    }
+
+    .section-four {
+      background: linear-gradient(to bottom right, #101010, #2b1a1a);
+    }
+
+    .section-five {
+      background: linear-gradient(to bottom right, #141414, #331919);
+    }
+
+    .signature {
+      margin-top: 40px;
+      font-size: 1.5rem;
+      color: #ffdede;
+    }
+
+    .floating-heart {
+      position: fixed;
+      color: rgba(255,255,255,0.15);
+      animation: float 8s linear infinite;
+      z-index: 0;
+      font-size: 24px;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-120vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .footer {
+      padding: 30px;
+      text-align: center;
+      background: #0a0a0a;
+      color: #aaa;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.8rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="floating-heart" style="left:10%; animation-delay:0s;">❤️</div>
+  <div class="floating-heart" style="left:30%; animation-delay:2s;">❤️</div>
+  <div class="floating-heart" style="left:50%; animation-delay:4s;">❤️</div>
+  <div class="floating-heart" style="left:70%; animation-delay:1s;">❤️</div>
+  <div class="floating-heart" style="left:90%; animation-delay:3s;">❤️</div>
+
+  <!-- Slide 1 -->
+  <section class="hero">
+    <div class="content">
+      <h1>అమ్మ ❤️</h1>
+      <p>
+        ఈ ప్రపంచంలో నన్ను నిజంగా అర్థం చేసుకున్న ఒక వ్యక్తి ఉంటే…<br>
+        అది నువ్వే అమ్మ.
+      </p>
+
+      <div class="media-container">
+        <!-- Replace image1.jpg -->
+        <img src="assets/image1.jpg" alt="Amma Photo">
+
+        <!-- Replace video1.mp4 -->
+        <video controls>
+          <source src="assets/video1.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 2 -->
+  <section class="section-two">
+    <div class="content">
+      <h2>నీ జీవితం… ఒక త్యాగం</h2>
+
+      <p>
+        చిన్నప్పటి నుంచి ఎన్ని కష్టాలు వచ్చినా<br>
+        మా ముగ్గురిని పెంచడానికి నువ్వు ఒక్కరే పోరాడావు అమ్మ.
+      </p>
+
+      <p>
+        నువ్వు అలసిపోయినా దాచుకున్నావు.<br>
+        నువ్వు బాధపడ్డా చూపించలేదు.<br>
+        నీ కష్టం కన్నా మా భవిష్యత్తే నీకు ముఖ్యమైంది.
+      </p>
+
+      <div class="media-container">
+        <!-- Replace image2.jpg -->
+        <img src="assets/image2.jpg" alt="Family Photo 1">
+
+        <!-- Replace image3.jpg -->
+        <img src="assets/image3.jpg" alt="Family Photo 2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3 -->
+  <section class="section-three">
+    <div class="content">
+      <h2>అందరూ నమ్మకపోయినా…</h2>
+
+      <p>
+        అందరూ సందేహపడ్డప్పుడు కూడా<br>
+        నువ్వు మాత్రం నన్ను నమ్మావు.
+      </p>
+
+      <p>
+        నేను జీవితంలో కొన్ని పెద్ద తప్పులు చేశాను.<br>
+        కానీ నువ్వు మాత్రం నన్ను వదల్లేదు అమ్మ.
+      </p>
+
+      <p>
+        “నా కొడుకు మారతాడు” అని నమ్ముతూ<br>
+        నా పక్కనే నిలబడ్డావు.
+      </p>
+
+      <div class="media-container">
+        <!-- Replace image4.jpg -->
+        <img src="assets/image4.jpg" alt="Mother Son Photo">
+
+        <!-- Replace video2.mp4 if needed -->
+        <video controls>
+          <source src="assets/video2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4 -->
+  <section class="section-four">
+    <div class="content">
+      <h2>నాకు నువ్వే బలం</h2>
+
+      <p>
+        నేను పడిపోయిన ప్రతీసారి నన్ను లేపింది నీ మాట.<br>
+        నేను విరిగిపోయిన ప్రతీసారి నన్ను నిలబెట్టింది నీ ప్రేమ.
+      </p>
+
+      <p>
+        ఈ ప్రపంచం మొత్తం ఒకవైపు ఉన్నా…<br>
+        నువ్వు ఒకవైపు ఉంటే నేను ఇంకా బలంగా ఉంటాను అమ్మ.
+      </p>
+
+      <div class="media-container">
+        <!-- Replace image5.jpg -->
+        <img src="assets/image5.jpg" alt="Special Memory">
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5 -->
+  <section class="section-five">
+    <div class="content">
+      <h2>ఒక మాట ❤️</h2>
+
+      <p>
+        అమ్మ…<br>
+        నేను నీకు ఇప్పటివరకు ఏమీ చేయలేకపోయాను.
+      </p>
+
+      <p>
+        కానీ ఒక రోజు…<br>
+        నువ్వు నా గురించి గర్వపడేలా చేస్తాను.
+      </p>
+
+      <p>
+        నాకు దేవుడు కనిపించలేదు.<br>
+        కానీ దేవుడు ఎలా ఉంటాడో మాత్రం తెలుసు.<br><br>
+
+        అది నువ్వే అమ్మ ❤️
+      </p>
+
+      <div class="signature">
+        — నీ కొడుకు,<br>
+        కార్తీక్
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    Made with ❤️ for Amma
+  </div>
+
+</body>
+</html>
